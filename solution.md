@@ -46,13 +46,13 @@ HotWater负责-把水加热->并把水喷洒在研磨好的咖啡上，形成溶
 
 ###### 4>咖啡喝完了
 
-![image-20221117230247473](C:\Users\asuka\Desktop\CoffeeMaker\Coffee_Maker\Image\4.png)
+![Image text](https://github.com/CloudSearch1/Coffee_Maker/blob/master/Image/4.png)
 
 抽象为一副具有相同关联关系的类图。
 
 ### 2设计抽象模型
 
-![Image text](https://github.com/CloudSearch1/Coffee_Maker/blob/master/Image/4.png)
+![Image text](https://github.com/CloudSearch1/Coffee_Maker/blob/master/Image/5.png)
 
 ###### 使用者按下冲煮按钮
 
@@ -70,5 +70,5 @@ CoffeeMachine如何知道冲煮按钮被按下了呢？
 
 ->系统的控制流是如何运转调用CoffeeMakerAPI.GetBrewButtonStatus()函数的呢？最好总是假设消息都是可以异步发送的，就好像存在有独立的线程一样。我们这里采用select方式。
 
-![Image text](https://github.com/CloudSearch1/Coffee_Maker/blob/master/Image/5.png)
+![Image text](https://github.com/CloudSearch1/Coffee_Maker/blob/master/Image/6.png)
 
