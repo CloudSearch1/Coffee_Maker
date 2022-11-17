@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Events">
+      <UniqueIdentifier>{3A8963B1-262B-8E87-0FE6-A1DBFB2615D8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Log">
+      <UniqueIdentifier>{E704880B-530E-887C-DC89-9E7C4892937C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logicfunction">
+      <UniqueIdentifier>{D9B9EAEB-457A-6622-0EB5-AF9F7A34ABFE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Status">
+      <UniqueIdentifier>{2979E5D1-151B-10A8-FED5-23FCEA1697F8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Coffepch.h" />
+    <ClInclude Include="src\Events\Core.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Log\Log.h">
+      <Filter>Log</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Logicfunction\CoffeeMaker.h">
+      <Filter>Logicfunction</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Status\Status.h">
+      <Filter>Status</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Coffepch.cpp" />
+    <ClCompile Include="src\Log\Log.cpp">
+      <Filter>Log</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Logicfunction\CoffeeMaker.cpp">
+      <Filter>Logicfunction</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
