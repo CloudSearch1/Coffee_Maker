@@ -31,7 +31,7 @@
 
  
 
-![img](C:\Users\asuka\Desktop\CoffeeMaker\Coffee_Maker\Image\clip_image001.gif)
+![Image text](https://github.com/CloudSearch1/Coffee_Maker/blob/master/Image/clip_image001.gif)
 
  
 
