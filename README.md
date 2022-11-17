@@ -1,7 +1,13 @@
 # Coffee_Maker
-little demo for study
+解决方案：方案请阅读solution.md
 
-这是一个小小demo
+代码实现：CoffeMachine.sln   clone到本地之后运行make.bat既可以make项目。
+
+运行环境windows，ide工具visual studio 2022
+
+项目管理工具premake,图形接口imgui，实现语言C++
+
+
 
 要求：
 
@@ -94,8 +100,6 @@ X型咖啡机一次可以制作一壶咖啡。用户把过滤器放置在支架�
 指示灯 (Indicator)：冲煮开始后熄灭，直到当冲煮流程结束时再次亮起，表示咖啡已经煮好。
 
 减压阀门 (Relief Valve)：在开启时可以降低加热器中的压力。压力降低会阻止水流向过滤器。该阀门可以开启和关闭。
-
- 
 
 X型专用咖啡机的硬件已经设计完成，硬件工程师为我们提供了低层的API如下。现在请使用底层API用C/C++编写一个咖啡机程序，并提供必要的流程图和文档说明。
 
@@ -248,4 +252,3 @@ void SetReliefValveState(ReliefValveState s);
 
 }
 ```
-
