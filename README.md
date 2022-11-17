@@ -31,7 +31,7 @@
 
  
 
-![img](file:///C:/Users/asuka/AppData/Local/Temp/msohtmlclip1/01/clip_image001.gif)
+![img](C:\Users\asuka\Desktop\CoffeeMaker\Coffee_Maker\Image\clip_image001.gif)
 
  
 

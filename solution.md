@@ -28,7 +28,7 @@ HotWater负责-把水加热->并把水喷洒在研磨好的咖啡上，形成溶
 
 ###### 1->如果使用者按下冲煮按钮
 
-![image-20221117225828363](C:\Users\asuka\AppData\Roaming\Typora\typora-user-images\image-20221117225828363.png)
+![image-20221117225828363](C:\Users\asuka\Desktop\CoffeeMaker\Coffee_Maker\Image\1.png)
 
 如果通向器皿的热水流的开始和停止是由ContainmentVessel通知HotWater进行的ContainmentVessel给HotWater发送了start消息。说明ContainmentVessel依赖于HotWater。
 
@@ -38,21 +38,21 @@ HotWater负责-把水加热->并把水喷洒在研磨好的咖啡上，形成溶
 
 当接收器皿没有准备好，ContainmentVessel通知HotWater停止传送热水，当准备好后，再通知HotWater再次开启热水流，热水流的终止和恢复。
 
-![image-20221117225901270](C:\Users\asuka\AppData\Roaming\Typora\typora-user-images\image-20221117225901270.png)
+![image-20221117225901270](C:\Users\asuka\Desktop\CoffeeMaker\Coffee_Maker\Image\2.png)
 
 ###### 3->冲煮完成
 
-![image-20221117230035350](C:\Users\asuka\AppData\Roaming\Typora\typora-user-images\image-20221117230035350.png)
+![image-20221117230035350](C:\Users\asuka\Desktop\CoffeeMaker\Coffee_Maker\Image\3.png)
 
 ###### 4>咖啡喝完了
 
-![image-20221117230247473](C:\Users\asuka\AppData\Roaming\Typora\typora-user-images\image-20221117230247473.png)
+![image-20221117230247473](C:\Users\asuka\Desktop\CoffeeMaker\Coffee_Maker\Image\4.png)
 
 抽象为一副具有相同关联关系的类图。
 
 ### 2设计抽象模型
 
-![image-20221117231007624](C:\Users\asuka\AppData\Roaming\Typora\typora-user-images\image-20221117231007624.png)
+![image-20221117231007624](C:\Users\asuka\Desktop\CoffeeMaker\Coffee_Maker\Image\5.png)
 
 ###### 使用者按下冲煮按钮
 
@@ -70,5 +70,5 @@ CoffeeMachine如何知道冲煮按钮被按下了呢？
 
 ->系统的控制流是如何运转调用CoffeeMakerAPI.GetBrewButtonStatus()函数的呢？最好总是假设消息都是可以异步发送的，就好像存在有独立的线程一样。我们这里采用select方式。
 
-![image-20221117231025181](C:\Users\asuka\AppData\Roaming\Typora\typora-user-images\image-20221117231025181.png)
+![image-20221117231025181](C:\Users\asuka\Desktop\CoffeeMaker\Coffee_Maker\Image\6.png)
 
