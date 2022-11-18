@@ -22,17 +22,35 @@
     <ClInclude Include="src\Log\Log.h">
       <Filter>Log</Filter>
     </ClInclude>
-    <ClInclude Include="src\Logicfunction\CoffeeMaker.h">
+    <ClInclude Include="src\Logicfunction\CoffeeMachine.h">
       <Filter>Logicfunction</Filter>
     </ClInclude>
     <ClInclude Include="src\Status\Status.h">
       <Filter>Status</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Logicfunction\ContainmentVessel.h">
+      <Filter>Logicfunction</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Logicfunction\HotWater.h">
+      <Filter>Logicfunction</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Logicfunction\CoffeeMaker.h">
+      <Filter>Logicfunction</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Coffepch.cpp" />
     <ClCompile Include="src\Log\Log.cpp">
       <Filter>Log</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Logicfunction\CoffeeMachine.cpp">
+      <Filter>Logicfunction</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Logicfunction\ContainmentVessel.cpp">
+      <Filter>Logicfunction</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Logicfunction\HotWater.cpp">
+      <Filter>Logicfunction</Filter>
     </ClCompile>
     <ClCompile Include="src\Logicfunction\CoffeeMaker.cpp">
       <Filter>Logicfunction</Filter>

@@ -139,16 +139,22 @@
   <ItemGroup>
     <ClInclude Include="src\Coffepch.h" />
     <ClInclude Include="src\Events\Core.h" />
-    <ClInclude Include="src\Log\Log.h" />
     <ClInclude Include="src\Logicfunction\CoffeeMaker.h" />
+    <ClInclude Include="src\Logicfunction\ContainmentVessel.h" />
+    <ClInclude Include="src\Logicfunction\HotWater.h" />
+    <ClInclude Include="src\Log\Log.h" />
+    <ClInclude Include="src\Logicfunction\CoffeeMachine.h" />
     <ClInclude Include="src\Status\Status.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Coffepch.cpp">
       <PrecompiledHeader>Create</PrecompiledHeader>
     </ClCompile>
-    <ClCompile Include="src\Log\Log.cpp" />
     <ClCompile Include="src\Logicfunction\CoffeeMaker.cpp" />
+    <ClCompile Include="src\Logicfunction\ContainmentVessel.cpp" />
+    <ClCompile Include="src\Logicfunction\HotWater.cpp" />
+    <ClCompile Include="src\Log\Log.cpp" />
+    <ClCompile Include="src\Logicfunction\CoffeeMachine.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="vendor\imgui\ImGui.vcxproj">

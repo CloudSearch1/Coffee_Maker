@@ -1,31 +1,38 @@
-#include"Coffepch.h"
-#include"CoffeeMaker.h"
+#include "Coffepch.h"
+#include "CoffeeMaker.h"
 
 namespace CoffeeMaker
 {
-  WarmerPlateStatus CofferMaker::GetWarmerPlateStatus()
+
+  WarmerPlateStatus CoffeeMaker::CoffeeMaker::GetWarmerPlateStatus()
   {
     return WarmerPlateStatus();
   }
-  BoilerStatus CofferMaker::GetBoilerStatus()
+
+  BoilerStatus CoffeeMaker::CoffeeMaker::GetBoilerStatus()
   {
     return BoilerStatus();
   }
-  BrewButtonStatus CofferMaker::GetBrewButtonStatus()
-  {
 
+  BrewButtonStatus CoffeeMaker::GetBrewButtonStatus()
+  {
     return BrewButtonStatus();
   }
-  void CofferMaker::SetBoilerHeaterState(CoffeeBoilerHeater::BoilerHeaterState s)
+
+  void CoffeeMaker::SetBoilerHeaterState(BoilerHeaterState s)
   {
   }
-  void CofferMaker::SetWarmerState(WarmerState s)
+
+  void CoffeeMaker::SetWarmerState(CoffeeStatus::WarmerState s)
   {
   }
-  void CofferMaker::SetIndicatorState(CoffeeIndicator::IndicatorState s)
+
+  void CoffeeMaker::SetIndicatorState(CoffeeState::IndicatorState s)
   {
   }
-  void CofferMaker::SetReliefValveState(ReliefValveState s)
+
+  void CoffeeMaker::SetReliefValveState(ReliefValveState s)
   {
   }
+
 }
