@@ -4,12 +4,12 @@
 namespace CoffeeMaker
 {
 
-  WarmerPlateStatus CoffeeMaker::CoffeeMaker::GetWarmerPlateStatus()
+  WarmerPlateStatus CoffeeMaker::GetWarmerPlateStatus()
   {
     return WarmerPlateStatus();
   }
 
-  BoilerStatus CoffeeMaker::CoffeeMaker::GetBoilerStatus()
+  BoilerStatus CoffeeMaker::GetBoilerStatus()
   {
     return BoilerStatus();
   }

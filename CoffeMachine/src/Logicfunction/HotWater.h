@@ -1,5 +1,5 @@
 #pragma once
-
+#include"CoffeeMaker.h"
 namespace CoffeeMaker
 {
   class HotWater
@@ -8,6 +8,7 @@ namespace CoffeeMaker
 
 
   public:
-    
+    virtual bool IsReady() const { return false; };
+    virtual void Start() const {};
   };
 }
